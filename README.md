@@ -1,2 +1,8 @@
-# RCA
-Role-conditioned alignment for medical image referring segmentation.
+# Learning Role-Conditioned Alignment for Medical Image Referring Segmentation
+
+
+⭐ ** This work is early accepted (top 9%) by MICCAI 2026! ** ⭐
+
+## 🚀 Coming soon
+
+
