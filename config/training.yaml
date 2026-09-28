@@ -1,0 +1,39 @@
+TRAIN:
+  train_batch_size: 32
+  lr: 0.0003
+
+  valid_batch_size: 8
+
+  image_size: [224,224]
+
+  min_epochs: 20
+  max_epochs: 100
+  patience: 20
+
+  device: 1
+
+  model_save_path: ./save_model
+  model_save_filename: medseg
+
+MODEL:
+  bert_type: microsoft/BiomedVLP-CXR-BERT-specialized
+  vision_type: facebook/convnext-tiny-224
+  project_dim: 768
+
+# DATA:
+  train_csv_path: /mnt/scratch/users/kli/data/liverpool/public/QaTa-Covid19/Train_Folder/Train_text_for_Covid19(Sheet1).csv
+  train_root_path: /mnt/data2/users/kli/liverpool/public/QaTa-COV19-v2/Train Set
+
+  test_csv_path: /mnt/scratch/users/kli/data/liverpool/public/QaTa-Covid19/Train_Folder/Test_text_for_Covid19(Sheet1).csv
+  test_root_path: /mnt/data2/users/kli/liverpool/public/QaTa-COV19-v2/Test Set
+
+#MosMedData+
+# DATA:
+#   train_csv_path: /mnt/scratch/users/kli/data/liverpool/public/MosMedDataPlus/Train_Folder/Train_text_MosMedData+ 1(in).csv
+#   train_root_path: /mnt/scratch/users/kli/data/liverpool/public/MosMedDataPlus/Train_Folder
+
+#   val_csv_path: /mnt/scratch/users/kli/data/liverpool/public/MosMedDataPlus/Val_Folder/Val_text_MosMedData+ 1(in).csv
+#   val_root_path: /mnt/scratch/users/kli/data/liverpool/public/MosMedDataPlus/Val_Folder
+
+#   test_csv_path: /mnt/scratch/users/kli/data/liverpool/public/MosMedDataPlus/Test_Folder/Test_text_MosMedData+(in).csv
+#   test_root_path: /mnt/scratch/users/kli/data/liverpool/public/MosMedDataPlus/Test_Folder
