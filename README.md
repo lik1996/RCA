@@ -11,12 +11,12 @@ Learning Role-Conditioned Alignment for Medical Image Referring Segmentation
 
 </div>
 
-<!-- <img src='assets/flowchart.png' /> -->
+<!-- <img src='misc/framework.png' /> -->
 
 
 ## Framework
+<img src='misc/framework.png' />
 
-![Framework](./misc/framwork.png)
 
 ## Requirements
 1. Environment  
@@ -76,9 +76,10 @@ The main mandatory dependency versions are as follows:
 Coming soon.
 
 ## Result
+<img src='misc/comparison.png' />
 
-![Table](./misc/comparison.png)
-![Vis](./misc/vis.png)
+<img src='misc/vis.png' />
+
 
 ## Citation
 
