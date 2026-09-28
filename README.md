@@ -5,6 +5,20 @@ Learning Role-Conditioned Alignment for Medical Image Referring Segmentation
 
 </h3>
 
+Kun Li<sup>1</sup>, 
+Fu Wang<sup>1</sup>,
+Feixiang Zhou<sup>1</sup>, 
+He Zhao<sup>1</sup>,
+Xiaowei Xu<sup>2</sup>, 
+Yanda Meng<sup>3</sup>,
+Yitian Zhao<sup>4</sup>, 
+Yalin Zheng<sup>1</sup>, 
+
+<sup>1</sup>University of Liverpool, UK, 
+<sup>2</sup>Leibniz Institute for Analytical Sciences, Germany,
+<sup>3</sup>King Abdullah University of Science and Technology, Saudi Arabia,
+<sup>4</sup>Chinese Academy of Sciences, China
+
 ⭐ **Early accepted, MICCAI 2026 Spotlight**⭐
 
 
